@@ -1,0 +1,24 @@
+
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+
+.footer button {
+  border: none;
+}
+
+.goback{
+  background: none;
+}
+
+.next{
+  background-color: rgb(4, 4, 104)!important;
+  color: white!important;
+  float: right;
+  margin-bottom: 0.5rem;
+}
+
+.footer-box {
+  margin-top: 4rem;
+}

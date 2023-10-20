@@ -1,0 +1,16 @@
+@import './styles/bootstrap/bootstrap.css';
+@import './styles/bootstrap/bootstrap.min.css';
+@import './styles/LeftSideBar/index.css';
+@import './styles/MainPage/index.css';
+@import './styles/PersonnalInfo/index.css';
+@import './styles/SelectPlan/index.css';
+@import './styles/Pick-add-ons/index.css';
+@import './styles/Back-Forward/index.css';
+@import './styles/Summary/index.css';
+@import './styles/Thanks/index.css';
+@import './styles/Page-not-found/index';
+body{
+  overflow: hidden;
+  height: 100vh;
+  background-color: rgb(226, 237, 245);
+}

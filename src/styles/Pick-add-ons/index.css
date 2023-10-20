@@ -1,0 +1,22 @@
+.picks {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+.picks:hover{
+  border: 1px solid rgb(3, 3, 204);
+}
+.picks input[type='checkbox'] {
+  position: absolute;
+  bottom: 2rem;
+  left: 2.5rem;
+}
+.picks label {
+  padding-left: 1.5rem;
+}
+
+.picks .price {
+  position: absolute;
+  right: 1rem;
+  bottom: 1.5rem;
+}

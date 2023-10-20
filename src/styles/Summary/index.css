@@ -1,0 +1,8 @@
+.summary {
+  position: relative;
+}
+
+.summary .price {
+  position: absolute;
+  right: 0;
+}

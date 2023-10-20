@@ -1,0 +1,44 @@
+.sidebar{
+  position: relative;
+}
+
+@media (max-width:1000px){
+  .sidebar{
+    display: none;
+  }
+}
+.sidebar img {
+  width: 14.6rem;
+  padding-top: 1rem;
+}
+.progressView{
+  position: absolute;
+  width: 100%;
+  left: 2rem;
+  top: 2rem;
+}
+.sidebar div {
+  background: none!important;
+  color: white;
+}
+.status{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  padding:  0.1rem 0.6rem;
+  border: solid rgba(255, 255, 255, 0.235);
+}
+.titleSideBar {
+  opacity: 0.5;
+}
+.titleSideBar, .subtitleSideBar{
+  font-size: 13px;
+}
+.status-active{
+  background-color: white;
+  color: black;
+}
+.status-not-active{
+  background-color: none;
+  color: white;
+}

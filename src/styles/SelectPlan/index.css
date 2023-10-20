@@ -1,0 +1,30 @@
+.option{
+  position: relative;
+  height: 10rem;
+  border: 1px solid rgb(197, 200, 201);
+  border-radius: 0.5rem;
+}
+.option:hover{
+  border: 1px solid rgb(3, 3, 204);
+  cursor: pointer;
+}
+.content{
+  position: absolute;
+  bottom: 0;
+}
+.type{
+  color: rgb(2, 2, 94)!important;
+}
+
+input[type='checkbox'] {
+  background-color:  rgb(5, 5, 146)!important;
+  color: white!important;
+}
+
+.choice {
+  background-color: rgba(210, 209, 209, 0.527);
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
